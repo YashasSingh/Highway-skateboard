@@ -1,5 +1,5 @@
 # Electric Skateboard with Pressure Sensor Acceleration
-
+[Read the project build journal](journal.md) for detailed progress updates and technical notes.
 ## Description
 This is a custom-built electric skateboard that uses two pressure sensors placed on the deck to detect foot pressure and control acceleration. The onboard controller reads analog input from the sensors and adjusts motor speed accordingly.
 
