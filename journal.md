@@ -1,3 +1,4 @@
+
 ### Date: 2025-06-18  
 **Time Spent:** 2.5 hours  
 **Task:** Research — Understanding How Electric Skateboards Work  
@@ -13,7 +14,7 @@ I spent time reading documentation, tutorials, and teardown videos to learn the 
 - **Microcontroller (e.g. PSoC or Arduino):** Reads sensor data and sends control signals to the ESC. In this project, this will be embedded into the skateboard deck via a custom PCB.  
 - **Drivetrain:** Power is transmitted to the wheels either directly (hub motors) or through belts/pulleys (for torque control and easier motor swaps).
 
-![alt text](img/image.png)
+![alt text](image.png)
 ---
 ### Date: 2025-06-19  
 **Time Spent:** 2 hours  
@@ -43,7 +44,7 @@ My goal is to generate the same type of output signal (PWM, analog voltage, or U
 
 ---
 
-## 💡 Implementation Steps
+##  Implementation Steps
 
 ### 1. **Mount the Pressure Sensors**
 
@@ -55,8 +56,8 @@ My goal is to generate the same type of output signal (PWM, analog voltage, or U
 Each sensor connects to an analog pin with a voltage divider.
 
 **Wiring for each FSR:**
-
 ```
+
 [3.3V] --- [FSR] ---+--- [Analog Pin]
 |
 [10kΩ]
@@ -136,7 +137,7 @@ My pressure sensors become the new throttle input. The microcontroller acts as a
 
 As long as I match what the ESC expects, this setup should feel intuitive and eliminate the need for a handheld remote.
 
-![alt text](img/image-1.png)
+![alt text](image-1.png)
 example of remote
 
 
@@ -260,27 +261,27 @@ I created a complete 3D model of the electric skateboard in Fusion 360. The goal
 
 ##  Key Features of the 3D Model
 
-### 🔹 Deck and Sensor Zones
+### - Deck and Sensor Zones
 
 * The deck layout includes zones for foot placement, with designated sensor areas near the front and rear pads.
 * These regions will house the FSR pressure sensors under the grip tape, positioned where natural foot pressure is applied.
 
-### 🔹 Electronics Enclosure
+### - Electronics Enclosure
 
 * There’s a compartment underneath the deck designed to hold the microcontroller, ESC, and all necessary wiring.
 * The enclosure is sized for easy access and heat dissipation, and it has enough clearance to swap boards or reprogram the microcontroller if needed.
 
-### 🔹 Battery Placement
+### - Battery Placement
 
 * I placed the battery centrally as possible under the deck to maintain a balanced center of gravity.
 * There’s additional clearance for wiring and connectors, with channels modeled to route cables cleanly to the ESC.
 
-### 🔹 Motor and Wheel Assembly
+### - Motor and Wheel Assembly
 
 * The model uses a standard single rear-wheel configuration with a single BLDC hub motor.
 * I modeled the motor mount and truck spacing to align with common commercial builds, ensuring mod compatibility.
 
-### 🔹 Modding-Friendly Design
+### - Modding-Friendly Design
 
 * Space is reserved in the enclosure for both the original ESC/receiver and the new microcontroller setup.
 * This allows for quick switching between the default remote throttle and my foot-pressure-based system if needed.
@@ -291,10 +292,10 @@ I created a complete 3D model of the electric skateboard in Fusion 360. The goal
 
 ---
 
-![alt text](img/image-3.png)
-![alt text](img/image-4.png)
-![alt text](img/image-5.png)
-![alt text](img/image-6.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
 Next step: Begin preparing cutouts for the enclosure.
 
 
@@ -315,10 +316,9 @@ I cut out the bottom section of the deck to create space for the electronics enc
 * The cutout follows the general layout from the Fusion 360 model
 * I focused only on removing material to define the space for the enclosure
 * No exact fit-up work or mounting features were added — I’ll wait until I have the physical components in-hand
-![alt text](img/image-9.png)
-![alt text](img/image-10.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
 ---
 
 
-Next task: Begin wiring up the pressure sensors and testing analog readings with the microcontroller.
 Next task: Begin wiring up the pressure sensors and testing analog readings with the microcontroller.
