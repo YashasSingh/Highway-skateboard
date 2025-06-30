@@ -1,4 +1,3 @@
-
 ### Date: 2025-06-18  
 **Time Spent:** 2.5 hours  
 **Task:** Research — Understanding How Electric Skateboards Work  
@@ -14,7 +13,7 @@ I spent time reading documentation, tutorials, and teardown videos to learn the 
 - **Microcontroller (e.g. PSoC or Arduino):** Reads sensor data and sends control signals to the ESC. In this project, this will be embedded into the skateboard deck via a custom PCB.  
 - **Drivetrain:** Power is transmitted to the wheels either directly (hub motors) or through belts/pulleys (for torque control and easier motor swaps).
 
-![alt text](image.png)
+![alt text](img/image.png)
 ---
 ### Date: 2025-06-19  
 **Time Spent:** 2 hours  
@@ -137,7 +136,7 @@ My pressure sensors become the new throttle input. The microcontroller acts as a
 
 As long as I match what the ESC expects, this setup should feel intuitive and eliminate the need for a handheld remote.
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 example of remote
 
 
@@ -292,10 +291,12 @@ I created a complete 3D model of the electric skateboard in Fusion 360. The goal
 
 ---
 
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](img/image.png)
+![alt text](img/image-1.png)
+![alt text](img/image-3.png)
+![alt text](img/image-4.png)
+![alt text](img/image-5.png)
+![alt text](img/image-6.png)
 Next step: Begin preparing cutouts for the enclosure.
 
 
@@ -316,8 +317,8 @@ I cut out the bottom section of the deck to create space for the electronics enc
 * The cutout follows the general layout from the Fusion 360 model
 * I focused only on removing material to define the space for the enclosure
 * No exact fit-up work or mounting features were added — I’ll wait until I have the physical components in-hand
-![alt text](image-9.png)
-![alt text](image-10.png)
+![alt text](img/image-9.png)
+![alt text](img/image-10.png)
 ---
 
 
