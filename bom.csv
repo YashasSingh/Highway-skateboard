@@ -1,10 +1,10 @@
-Item,Description,Qty,Unit Price (USD),Total Price (USD),Notes, Link
-Base Skateboard,Blank Skateboard Deck 9 x 36,1,$0,$0, For mounting all components i have the base,
-Longboard Wheels,LOOEEL 70mm Longboard Wheels 80A (with ABEC-9 Bearings Spacers Riser Pads Hardware),1,$21.99,$21.99,Black-meant to ballance out the other wheels since my current base board is 55mm, https://www.amazon.com/gp/product/B0CWR4QZ6S/ref=ewc_pr_img_1?smid=A310VHYOIO3GI1&th=1
-Pressure Sensors,Thin Film Pressure Sensor 20g-2Kg (4pcs),1,$12.99,$12.99,For foot pressure detection 2 for each foot different from og plans but it might save me as a failsafe if i fly off the board and the skateboard doesnt go anywhere else, https://www.amazon.com/gp/product/B0CZ6L5NMM/ref=ewc_pr_img_4?smid=A1NOQTMMT39TJ0&psc=1
-Battery Pack,OTRIEK 36V Scooter Battery Pack 10Ah,1,$65.89,$65.89,10S Li-Ion, https://www.amazon.com/gp/product/B09SBJK72Y/ref=ewc_pr_img_2?smid=A2WJEQ468K58NF&psc=1
-Hub Motor,Generic 70mm 150W 24V/36V Brushless Hub Motor Wheel,2,$59.29,$120.58,Black, https://www.amazon.com/gp/product/B0D1DL7XG8/ref=ewc_pr_img_3?smid=A3GGIPLZU0PS3Y&psc=1
-ESC Kit,Electric Skateboard ESC Kit 10S 36V (with Remote),1,$72.89,$67.16,Single drive, https://www.amazon.com/gp/product/B0CZ6L5NMM/ref=ewc_pr_img_4?smid=A1NOQTMMT39TJ0&psc=1
-Microcontroller,Raspberry Pi Pico,1,$4.00,$0,For sensor reading and ESC control( I have)
-Wires/resistors,All other componets to help make the pressure sensor remote interface,1,i have, $0,For connecting sensors to microcontroller
-,,,"Subtotal",$305:,
+Item,Description,Qty,Unit Price (USD),Total Price (USD),Notes,Link
+Base Skateboard,Blank Skateboard Deck 9 x 36,1,$0,$0,For mounting all components I have the base,
+Longboard Wheels,LOOEEL 70mm Longboard Wheels 80A (with ABEC-9 Bearings Spacers Riser Pads Hardware),1,$21.99,$21.99,Black — meant to balance out the other wheels since my current base board is 55mm,https://www.amazon.com/gp/product/B0CWR4QZ6S/ref=ewc_pr_img_1?smid=A310VHYOIO3GI1&th=1
+Pressure Sensors,Thin Film Pressure Sensor 20g–2Kg (4pcs),1,$12.99,$12.99,For foot pressure detection — 2 for each foot. Different from original plans but might save me as a failsafe if I fly off the board and the skateboard doesn’t go anywhere else,https://www.amazon.com/gp/product/B0CZ6L5NMM/ref=ewc_pr_img_4?smid=A1NOQTMMT39TJ0&psc=1
+Battery Pack,OTRIEK 36V Scooter Battery Pack 10Ah,1,$65.89,$65.89,10S Li-Ion,https://www.amazon.com/gp/product/B09SBJK72Y/ref=ewc_pr_img_2?smid=A2WJEQ468K58NF&psc=1
+Hub Motor,Generic 70mm 150W 24V/36V Brushless Hub Motor Wheel,2,$59.29,$120.58,Black,https://www.amazon.com/gp/product/B0D1DL7XG8/ref=ewc_pr_img_3?smid=A3GGIPLZU0PS3Y&psc=1
+ESC Kit,Electric Skateboard ESC Kit 10S 36V (with Remote),1,$72.89,$67.16,Single drive,https://www.amazon.com/gp/product/B0CZ6L5NMM/ref=ewc_pr_img_4?smid=A1NOQTMMT39TJ0&psc=1
+Microcontroller,Raspberry Pi Pico,1,$4.00,$0,For sensor reading and ESC control (I have),
+Wires/resistors,All other components to help make the pressure sensor remote interface,1,I have,$0,For connecting sensors to microcontroller
+,,,,"Subtotal",$305:
